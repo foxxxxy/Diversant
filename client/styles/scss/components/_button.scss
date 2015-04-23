@@ -1,0 +1,19 @@
+.button{
+  text-align: center;
+  display: inline-block;
+//  width: 140px;
+//  height: 40px;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  color: #3a494c;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #fff;
+  @include border-radius(3px);
+
+  &:hover{
+    background-color: #3a494c;
+    color: #fff;
+  }
+}

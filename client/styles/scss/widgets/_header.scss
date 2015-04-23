@@ -1,0 +1,46 @@
+header {
+  background: #fff;
+
+  nav {
+    & > a {
+      float: left;
+      line-height: 153px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-family: 'Bree Serif', serif;
+      font-size: 40px;
+      color: #3a494c;
+
+      .fa {
+        line-height: 20px;
+      }
+    }
+    ul {
+      margin-top: 55px;
+      font-size: 0;
+      float: right;
+
+      li {
+        float: left;
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        text-transform: capitalize;
+        margin-left: 1px;
+
+        a {
+          display: inline-block;
+          text-decoration: none;
+          color: #3a494c;
+          padding: 15px;
+
+          &:hover{
+            background-color: #3a494c;
+            color: #fff;
+            @include border-radius(3px);
+          }
+        }
+      }
+    }
+  }
+}

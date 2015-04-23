@@ -1,0 +1,41 @@
+.services{
+  .wrapper{
+    padding: 45px 0 105px;
+    font-size: 0;
+
+    figure{
+      display: inline-block;
+      width: 365px;
+      height: 315px;
+      text-align: center;
+
+
+      img{
+        padding:35px 0;
+      }
+
+      .ideas{
+        padding: 19px 0;
+      }
+      figcaption{
+        padding: 0 15px;
+
+        h3{
+          font-family: 'Bree Serif', serif;
+          font-size: 24px;
+          color: #3a494c;
+          line-height: 30px;
+          text-transform: capitalize;
+        }
+        p{
+          padding-top: 25px;
+          font-family: 'Ubuntu', serif;
+          font-size: 14px;
+          color: #666;
+          line-height: 24px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}

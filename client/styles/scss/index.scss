@@ -11,31 +11,34 @@
 
 //components
 @import "components/clearfix";
-
-/*-------avch----*/
-.index-list{
-  position: relative;
-  counter-reset: li;
-}
-
-.index-list li:before{
-  position: absolute;
-  content: counter(li, decimal) '.';
-  counter-increment: li; /* повышаем значение счетчика */
-  width: 70px;
-  height: 70px;
-  line-height: 70px;
-  border-radius: 50%;
-  top: 20%;
-  left: 50%;
-  margin-left: -35px;
-
-}
-
-@media (max-width: 1199px) {
+@import "components/slider";
+@import "components/button";
 
 
-}
+///*-------avch----*/
+//.index-list{
+//  position: relative;
+//  counter-reset: li;
+//}
+//
+//.index-list li:before{
+//  position: absolute;
+//  content: counter(li, decimal) '.';
+//  counter-increment: li; /* повышаем значение счетчика */
+//  width: 70px;
+//  height: 70px;
+//  line-height: 70px;
+//  border-radius: 50%;
+//  top: 20%;
+//  left: 50%;
+//  margin-left: -35px;
+//
+//}
+//
+//@media (max-width: 1199px) {
+//
+//
+//}
 
 
 
@@ -47,27 +50,27 @@
 @import "layouts/homepage";
 
 
-@media (max-width: 1199px) {
-
-
-
-}
-
-@media (max-width: 979px) {
-
-
-}
-@media (max-width: 767px) {
-
-}
-
-@media (max-width: 479px) {
-
-
-}
-
-@media (max-width: 320px) {
-
-
-}
+//@media (max-width: 1199px) {
+//
+//
+//
+//}
+//
+//@media (max-width: 979px) {
+//
+//
+//}
+//@media (max-width: 767px) {
+//
+//}
+//
+//@media (max-width: 479px) {
+//
+//
+//}
+//
+//@media (max-width: 320px) {
+//
+//
+//}
 

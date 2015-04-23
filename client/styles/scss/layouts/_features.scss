@@ -1,0 +1,65 @@
+.features {
+  background-color: #fff;
+
+  .wrapper {
+    padding: 60px 0 105px;
+
+    h2 {
+      font-family: 'Bree Serif', serif;
+      font-size: 60px;
+      color: #3a494c;
+      line-height: 60px;
+      text-transform: uppercase;
+      text-align: center;
+    }
+    p {
+      padding-top: 10px;
+      font-family: 'Ubuntu', serif;
+      font-size: 14px;
+      color: #666;
+      line-height: 24px;
+      text-align: center;
+    }
+
+    .features-wrapper {
+      padding: 50px 0 40px;
+
+      figure {
+        font-size: 0;
+
+        img {
+          width: 170px;
+          height: 170px;
+        }
+
+        figcaption {
+          float: right;
+          width: 355px;
+
+          h3 {
+            font-family: 'Bree Serif', serif;
+            font-size: 24px;
+            color: #3a494c;
+            line-height: 30px;
+          }
+          p {
+            padding-top: 10px;
+            font-family: 'Ubuntu', serif;
+            font-size: 14px;
+            color: #666;
+            line-height: 24px;
+            text-align: left;
+
+            a {
+              color: #036b7e;
+
+              &:hover {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

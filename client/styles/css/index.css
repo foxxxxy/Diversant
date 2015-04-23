@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700);
 /* line 5, ../../../../../../../var/lib/gems/1.9.1/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -63,9 +65,276 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
+/* line 1, ../scss/_base.scss */
+h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 60px;
+  color: #feffff;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* line 10, ../scss/_base.scss */
+p {
+  font-family: 'Ubuntu', serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+}
+
 /* line 2, ../scss/components/_clearfix.scss */
 .clearfix::after {
   display: table;
   clear: both;
   content: '';
+}
+
+/* line 1, ../scss/components/_button.scss */
+.button {
+  text-align: center;
+  display: inline-block;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  color: #3a494c;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  background-color: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 15, ../scss/components/_button.scss */
+.button:hover {
+  background-color: #3a494c;
+  color: #fff;
+}
+
+/* line 1, ../scss/widgets/_header.scss */
+header {
+  background: #fff;
+}
+/* line 5, ../scss/widgets/_header.scss */
+header nav > a {
+  float: left;
+  line-height: 153px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Bree Serif', serif;
+  font-size: 40px;
+  color: #3a494c;
+}
+/* line 14, ../scss/widgets/_header.scss */
+header nav > a .fa {
+  line-height: 20px;
+}
+/* line 18, ../scss/widgets/_header.scss */
+header nav ul {
+  margin-top: 55px;
+  font-size: 0;
+  float: right;
+}
+/* line 23, ../scss/widgets/_header.scss */
+header nav ul li {
+  float: left;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  margin-left: 1px;
+}
+/* line 31, ../scss/widgets/_header.scss */
+header nav ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #3a494c;
+  padding: 15px;
+}
+/* line 37, ../scss/widgets/_header.scss */
+header nav ul li a:hover {
+  background-color: #3a494c;
+  color: #fff;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 2, ../scss/layouts/_services.scss */
+.homepage .services .wrapper {
+  padding: 45px 0 105px;
+  font-size: 0;
+}
+/* line 6, ../scss/layouts/_services.scss */
+.homepage .services .wrapper figure {
+  display: inline-block;
+  width: 365px;
+  height: 315px;
+  text-align: center;
+}
+/* line 13, ../scss/layouts/_services.scss */
+.homepage .services .wrapper figure img {
+  padding: 35px 0;
+}
+/* line 17, ../scss/layouts/_services.scss */
+.homepage .services .wrapper figure .ideas {
+  padding: 19px 0;
+}
+/* line 20, ../scss/layouts/_services.scss */
+.homepage .services .wrapper figure figcaption {
+  padding: 0 15px;
+}
+/* line 23, ../scss/layouts/_services.scss */
+.homepage .services .wrapper figure figcaption h3 {
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  color: #3a494c;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+/* line 30, ../scss/layouts/_services.scss */
+.homepage .services .wrapper figure figcaption p {
+  padding-top: 25px;
+  font-family: 'Ubuntu', serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 1, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio {
+  background-color: #9ad5a6;
+}
+/* line 3, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper {
+  padding: 60px 0 105px;
+}
+/* line 6, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 60px;
+  color: #feffff;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 15, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper p {
+  padding-top: 10px;
+  font-family: 'Ubuntu', serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 24, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper ul {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 0;
+}
+/* line 29, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper ul li {
+  display: inline-block;
+  font-family: 'Bree Serif', serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-left: 1px;
+}
+/* line 36, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper ul li a {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+/* line 42, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper ul li a:hover {
+  background-color: #fff;
+  color: #3a494c;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+/* line 51, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper .portfolio-wrapper {
+  font-size: 0;
+  padding-bottom: 10px;
+}
+/* line 55, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper .portfolio-wrapper figure {
+  padding-bottom: 40px;
+}
+/* line 60, ../scss/layouts/_portfolio.scss */
+.homepage .portfolio .wrapper .button-center {
+  text-align: center;
+}
+/* line 1, ../scss/layouts/_features.scss */
+.homepage .features {
+  background-color: #fff;
+}
+/* line 4, ../scss/layouts/_features.scss */
+.homepage .features .wrapper {
+  padding: 60px 0 105px;
+}
+/* line 7, ../scss/layouts/_features.scss */
+.homepage .features .wrapper h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 60px;
+  color: #3a494c;
+  line-height: 60px;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 15, ../scss/layouts/_features.scss */
+.homepage .features .wrapper p {
+  padding-top: 10px;
+  font-family: 'Ubuntu', serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  text-align: center;
+}
+/* line 24, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper {
+  padding: 50px 0 40px;
+}
+/* line 27, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper figure {
+  font-size: 0;
+}
+/* line 30, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper figure img {
+  width: 170px;
+  height: 170px;
+}
+/* line 35, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper figure figcaption {
+  float: right;
+  width: 355px;
+}
+/* line 39, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper figure figcaption h3 {
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  color: #3a494c;
+  line-height: 30px;
+}
+/* line 45, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper figure figcaption p {
+  padding-top: 10px;
+  font-family: 'Ubuntu', serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 24px;
+  text-align: left;
+}
+/* line 53, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper figure figcaption p a {
+  color: #036b7e;
+}
+/* line 56, ../scss/layouts/_features.scss */
+.homepage .features .wrapper .features-wrapper figure figcaption p a:hover {
+  text-decoration: none;
 }
