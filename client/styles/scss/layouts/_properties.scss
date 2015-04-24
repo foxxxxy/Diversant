@@ -1,0 +1,62 @@
+.properties {
+  background-image: url(../../images/properties/properties-bg.png);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+
+  .wrapper {
+
+    h2 {
+      color: #3a494c;
+    }
+    p {
+      padding-top: 10px;
+      color: #666;
+    }
+
+    .properties-wrapper {
+      padding-top: 50px;
+
+      figure {
+        text-align: center;
+        position: relative;
+
+        img {
+          padding-bottom: 25px;
+          @include border-radius(50%);
+        }
+
+        figcaption {
+          h3 {
+            font-family: 'Bree Serif', serif;
+            font-size: 24px;
+            line-height: 30px;
+            color: #3a494c;
+          }
+
+          span {
+            padding-left: 110px;
+            top: 0;
+            left: 0;
+            position: absolute;
+            font-family: 'Bree Serif', serif;
+            font-size: 36px;
+            color: #666;
+            line-height: 169px;
+
+            &:after {
+              content: '%';
+              font-family: 'Bree Serif', serif;
+              font-size: 36px;
+              color: #666;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

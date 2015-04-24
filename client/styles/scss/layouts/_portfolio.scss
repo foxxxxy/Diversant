@@ -1,7 +1,13 @@
 .portfolio {
-  background-color: #9ad5a6;
+  background-image: url(../../images/portfolio/portfolio-bg.png);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+
   .wrapper {
-    padding: 60px 0 105px;
 
     h2 {
       font-family: 'Bree Serif', serif;
@@ -58,6 +64,7 @@
     }
 
     .button-center {
+      font-size: 0;
       text-align: center;
     }
   }

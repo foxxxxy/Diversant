@@ -2,7 +2,6 @@
   background-color: #fff;
 
   .wrapper {
-    padding: 60px 0 105px;
 
     h2 {
       font-family: 'Bree Serif', serif;
@@ -57,6 +56,35 @@
                 text-decoration: none;
               }
             }
+          }
+        }
+      }
+    }
+
+    .features-nav{
+      ul{
+
+
+        li{
+          font-family: 'Ubuntu', serif;
+          font-size: 14px;
+          color: #666;
+          line-height: 24px;
+
+          .triangle {
+            display: inline-block;
+            width: 5px;
+            height: 5px;
+            vertical-align: middle;
+            @include box-sizing(border-box);
+            border-top: 5px solid transparent;
+            border-right: 5px solid transparent;
+            border-bottom: 5px solid transparent;
+            border-left: 5px solid #573e41;
+          }
+
+          span{
+            color: #036b7e;
           }
         }
       }

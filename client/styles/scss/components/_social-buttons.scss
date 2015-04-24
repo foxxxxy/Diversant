@@ -1,0 +1,25 @@
+.social-buttons {
+  padding-top: 35px;
+
+  li {
+    margin-right: 10px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #a5d2da;
+    @include border-radius(50%);
+
+    &:first-child{
+      background-color: #036b7e;
+    }
+
+    a {
+
+      .fa {
+        font-size: 30px;
+        line-height: 50px;
+        color: #fff;
+      }
+    }
+  }
+}
