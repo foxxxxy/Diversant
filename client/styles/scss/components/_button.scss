@@ -1,8 +1,6 @@
 .button{
   text-align: center;
   display: inline-block;
-//  width: 140px;
-//  height: 40px;
   font-family: 'Bree Serif', serif;
   font-size: 20px;
   color: #3a494c;
@@ -11,6 +9,8 @@
   text-transform: uppercase;
   background-color: #fff;
   @include border-radius(3px);
+  @include transition-property(all);
+  @include transition-duration(400ms);
 
   &:hover{
     background-color: #3a494c;

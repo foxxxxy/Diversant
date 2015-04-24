@@ -33,6 +33,8 @@ header {
           text-decoration: none;
           color: #3a494c;
           padding: 15px;
+          @include transition-property(all);
+          @include transition-duration(400ms);
 
           &:hover{
             background-color: #3a494c;

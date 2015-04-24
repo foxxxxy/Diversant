@@ -1,4 +1,6 @@
 .services{
+  background-color: #fff;
+
   .wrapper{
     padding: 45px 0 105px;
     font-size: 0;
@@ -21,7 +23,7 @@
         padding: 0 15px;
 
         h3{
-          font-family: 'Bree Serif', serif;
+          font-family: 'Bree Serif', sans-serif;
           font-size: 24px;
           color: #3a494c;
           line-height: 30px;
@@ -29,7 +31,7 @@
         }
         p{
           padding-top: 25px;
-          font-family: 'Ubuntu', serif;
+          font-family: 'Ubuntu', sans-serif;
           font-size: 14px;
           color: #666;
           line-height: 24px;

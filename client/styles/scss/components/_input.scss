@@ -1,0 +1,9 @@
+input {
+  display: block;
+  height: 40px;
+  border: none;
+  line-height: 40px;
+  background-color: #fff;
+  @include border-radius(5px);
+  @include placeholder(14px, '"Ubuntu", sans-serif', #666666);
+}

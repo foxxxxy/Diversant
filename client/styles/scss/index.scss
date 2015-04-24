@@ -5,6 +5,7 @@
 @import "fonts/fonts";
 
 //mixins
+@import "mixins/placeholder";
 
 //base
 @import "base";
@@ -14,6 +15,7 @@
 @import "components/slider";
 @import "components/button";
 @import "components/social-buttons";
+@import "components/input";
 
 //wigets
 @import "widgets/header";

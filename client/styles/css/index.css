@@ -95,7 +95,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   content: '';
 }
 
-/* line 286, ../scss/components/_slider.scss */
+/* line 2, ../scss/components/_slider.scss */
 .slider .camera_wrap a, .slider img, .slider ol, .slider ul, .slider li,
 .slider table, .slider tbody, .slider tfoot, .slider thead, .slider tr, .slider th, .slider td {
   background: none;
@@ -106,7 +106,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding: 0;
   vertical-align: baseline;
 }
-/* line 297, ../scss/components/_slider.scss */
+/* line 13, ../scss/components/_slider.scss */
 .slider .camera_wrap {
   direction: ltr;
   display: none;
@@ -115,11 +115,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   z-index: 0;
   width: 100%;
 }
-/* line 305, ../scss/components/_slider.scss */
+/* line 21, ../scss/components/_slider.scss */
 .slider .camera_wrap img {
   max-width: none !important;
 }
-/* line 309, ../scss/components/_slider.scss */
+/* line 25, ../scss/components/_slider.scss */
 .slider .camera_wrap li {
   cursor: pointer;
   display: inline-block;
@@ -133,7 +133,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 320, ../scss/components/_slider.scss */
+/* line 36, ../scss/components/_slider.scss */
 .slider .camera_wrap li span {
   height: 8px;
   left: 4px;
@@ -145,7 +145,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 332, ../scss/components/_slider.scss */
+/* line 48, ../scss/components/_slider.scss */
 .slider .camera_fakehover {
   height: 100%;
   min-height: 60px;
@@ -153,18 +153,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   z-index: 1;
 }
-/* line 340, ../scss/components/_slider.scss */
+/* line 56, ../scss/components/_slider.scss */
 .slider .camera_src {
   display: none;
 }
-/* line 344, ../scss/components/_slider.scss */
+/* line 60, ../scss/components/_slider.scss */
 .slider .cameraCont, .slider .cameraContents {
   height: 100%;
   position: relative;
   width: 100%;
   z-index: 1;
 }
-/* line 351, ../scss/components/_slider.scss */
+/* line 67, ../scss/components/_slider.scss */
 .slider .cameraSlide {
   bottom: 0;
   left: 0;
@@ -173,7 +173,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 0;
   width: 100%;
 }
-/* line 360, ../scss/components/_slider.scss */
+/* line 76, ../scss/components/_slider.scss */
 .slider .cameraContent {
   bottom: 0;
   display: none;
@@ -183,7 +183,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 0;
   width: 100%;
 }
-/* line 370, ../scss/components/_slider.scss */
+/* line 86, ../scss/components/_slider.scss */
 .slider .camera_target {
   bottom: 0;
   height: 100%;
@@ -196,7 +196,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   z-index: 0;
 }
-/* line 382, ../scss/components/_slider.scss */
+/* line 98, ../scss/components/_slider.scss */
 .slider .camera_overlayer {
   bottom: 0;
   height: 100%;
@@ -208,7 +208,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 100%;
   z-index: 0;
 }
-/* line 393, ../scss/components/_slider.scss */
+/* line 109, ../scss/components/_slider.scss */
 .slider .camera_target_content {
   bottom: 0;
   left: 0;
@@ -218,14 +218,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 0;
   z-index: 2;
 }
-/* line 402, ../scss/components/_slider.scss */
+/* line 118, ../scss/components/_slider.scss */
 .slider .camera_target_content .camera_link {
   background: url(../../images/blank.gif);
   display: block;
   height: 100%;
   text-decoration: none;
 }
-/* line 408, ../scss/components/_slider.scss */
+/* line 124, ../scss/components/_slider.scss */
 .slider .camera_loader {
   background: #fff url(../../images/slider/camera-loader.gif) no-repeat center;
   background: rgba(255, 255, 255, 0.9) url(../../images/slider/camera-loader.gif) no-repeat center;
@@ -242,7 +242,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 18px;
   border-radius: 18px;
 }
-/* line 423, ../scss/components/_slider.scss */
+/* line 139, ../scss/components/_slider.scss */
 .slider .camera_bar {
   bottom: 0;
   left: 0;
@@ -254,7 +254,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   height: 100%;
   width: auto;
 }
-/* line 435, ../scss/components/_slider.scss */
+/* line 151, ../scss/components/_slider.scss */
 .slider .camera_nav_cont {
   height: 65px;
   overflow: hidden;
@@ -264,7 +264,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 120px;
   z-index: 4;
 }
-/* line 445, ../scss/components/_slider.scss */
+/* line 161, ../scss/components/_slider.scss */
 .slider .camera_caption {
   top: 0;
   display: block;
@@ -275,7 +275,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 64px;
   line-height: 63px;
 }
-/* line 456, ../scss/components/_slider.scss */
+/* line 172, ../scss/components/_slider.scss */
 .slider .camera_caption p {
   padding-top: 30px;
   font-family: 'Ubuntu', serif;
@@ -283,7 +283,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #fff;
   line-height: 24px;
 }
-/* line 464, ../scss/components/_slider.scss */
+/* line 180, ../scss/components/_slider.scss */
 .slider .camera_caption .button {
   font-family: 'Bree Serif', serif;
   font-size: 20px;
@@ -297,25 +297,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 475, ../scss/components/_slider.scss */
+/* line 191, ../scss/components/_slider.scss */
 .slider .camera_caption .button:hover {
   background-color: #3a494c;
   color: #fff;
 }
-/* line 482, ../scss/components/_slider.scss */
+/* line 198, ../scss/components/_slider.scss */
 .slider .camera_caption div {
   padding: 20px 0;
 }
-/* line 487, ../scss/components/_slider.scss */
+/* line 203, ../scss/components/_slider.scss */
 .slider .camerarelative {
   overflow: hidden;
   position: relative;
 }
-/* line 491, ../scss/components/_slider.scss */
+/* line 207, ../scss/components/_slider.scss */
 .slider .imgFake {
   cursor: pointer;
 }
-/* line 494, ../scss/components/_slider.scss */
+/* line 210, ../scss/components/_slider.scss */
 .slider .camera_prevThumbs {
   bottom: 4px;
   cursor: pointer;
@@ -326,7 +326,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 30px;
   z-index: 10;
 }
-/* line 504, ../scss/components/_slider.scss */
+/* line 220, ../scss/components/_slider.scss */
 .slider .camera_prevThumbs div {
   background: url(../images/camera_skins.png) no-repeat -160px 0;
   display: block;
@@ -336,7 +336,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 50%;
   width: 30px;
 }
-/* line 514, ../scss/components/_slider.scss */
+/* line 230, ../scss/components/_slider.scss */
 .slider .camera_nextThumbs {
   bottom: 4px;
   cursor: pointer;
@@ -347,7 +347,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 30px;
   z-index: 10;
 }
-/* line 524, ../scss/components/_slider.scss */
+/* line 240, ../scss/components/_slider.scss */
 .slider .camera_nextThumbs div {
   background: url(../images/camera_skins.png) no-repeat -190px 0;
   display: block;
@@ -357,25 +357,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   top: 50%;
   width: 30px;
 }
-/* line 535, ../scss/components/_slider.scss */
+/* line 251, ../scss/components/_slider.scss */
 .slider .camera_command_wrap .hideNav {
   display: none;
 }
-/* line 538, ../scss/components/_slider.scss */
+/* line 254, ../scss/components/_slider.scss */
 .slider .camera_command_wrap {
   left: 0;
   position: relative;
   right: 0;
   z-index: 4;
 }
-/* line 545, ../scss/components/_slider.scss */
+/* line 261, ../scss/components/_slider.scss */
 .slider .camera_wrap .camera_pag .camera_pag_ul {
   list-style: none;
   margin: 0;
   padding: 0;
   text-align: right;
 }
-/* line 551, ../scss/components/_slider.scss */
+/* line 267, ../scss/components/_slider.scss */
 .slider .camera_wrap .camera_pag .camera_pag_ul li {
   cursor: pointer;
   display: inline-block;
@@ -389,13 +389,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 8px;
   border-radius: 8px;
 }
-/* line 563, ../scss/components/_slider.scss */
+/* line 279, ../scss/components/_slider.scss */
 .slider .camera_commands_emboss .camera_pag .camera_pag_ul li {
   -moz-box-shadow: 0 1px 0 white, inset 0 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0 1px 0 white, inset 0 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 0 white, inset 0 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 571, ../scss/components/_slider.scss */
+/* line 287, ../scss/components/_slider.scss */
 .slider .camera_commands_emboss .camera_pag .camera_pag_ul li span {
   height: 8px;
   left: 4px;
@@ -407,24 +407,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 5px;
   border-radius: 5px;
 }
-/* line 582, ../scss/components/_slider.scss */
+/* line 298, ../scss/components/_slider.scss */
 .slider .camera_commands_emboss .camera_pag .camera_pag_ul li:hover > span {
   -moz-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 590, ../scss/components/_slider.scss */
+/* line 306, ../scss/components/_slider.scss */
 .slider .camera_wrap .camera_pag .camera_pag_ul li.cameracurrent > span {
   -moz-box-shadow: 0;
   -webkit-box-shadow: 0;
   box-shadow: 0;
 }
-/* line 595, ../scss/components/_slider.scss */
+/* line 311, ../scss/components/_slider.scss */
 .slider .camera_pag_ul li img {
   display: none;
   position: absolute;
 }
-/* line 599, ../scss/components/_slider.scss */
+/* line 315, ../scss/components/_slider.scss */
 .slider .camera_pag_ul .thumb_arrow {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
@@ -434,7 +434,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: -4px;
   position: absolute;
 }
-/* line 609, ../scss/components/_slider.scss */
+/* line 325, ../scss/components/_slider.scss */
 .slider .camera_prev, .slider .camera_next, .slider .camera_commands {
   cursor: pointer;
   height: 40px;
@@ -444,46 +444,46 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 40px;
   z-index: 2;
 }
-/* line 618, ../scss/components/_slider.scss */
+/* line 334, ../scss/components/_slider.scss */
 .slider .camera_prev {
   left: 0;
 }
-/* line 621, ../scss/components/_slider.scss */
+/* line 337, ../scss/components/_slider.scss */
 .slider .camera_prev span {
   background: url(../images/camera_skins.png) no-repeat 0 0;
   display: block;
   height: 40px;
   width: 40px;
 }
-/* line 629, ../scss/components/_slider.scss */
+/* line 345, ../scss/components/_slider.scss */
 .slider .camera_next {
   right: 0;
 }
-/* line 632, ../scss/components/_slider.scss */
+/* line 348, ../scss/components/_slider.scss */
 .slider .camera_next span {
   background: url(../images/camera_skins.png) no-repeat -40px 0;
   display: block;
   height: 40px;
   width: 40px;
 }
-/* line 640, ../scss/components/_slider.scss */
+/* line 356, ../scss/components/_slider.scss */
 .slider .camera_commands {
   right: 41px;
 }
-/* line 642, ../scss/components/_slider.scss */
+/* line 358, ../scss/components/_slider.scss */
 .slider .camera_commands .camera_play {
   background: url(../images/camera_skins.png) no-repeat -80px 0;
   height: 40px;
   width: 40px;
 }
-/* line 647, ../scss/components/_slider.scss */
+/* line 363, ../scss/components/_slider.scss */
 .slider .camera_commands .camera_stop {
   background: url(../images/camera_skins.png) no-repeat -120px 0;
   display: block;
   height: 40px;
   width: 40px;
 }
-/* line 655, ../scss/components/_slider.scss */
+/* line 371, ../scss/components/_slider.scss */
 .slider .camera_wrap .camera_pag .camera_pag_ul li {
   cursor: pointer;
   display: inline-block;
@@ -496,7 +496,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-radius: 50%;
   border-radius: 50%;
 }
-/* line 665, ../scss/components/_slider.scss */
+/* line 381, ../scss/components/_slider.scss */
 .slider .camera_thumbs_cont {
   overflow: hidden;
   position: relative;
@@ -508,36 +508,36 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -webkit-border-bottom-left-radius: 4px;
   border-bottom-left-radius: 4px;
 }
-/* line 672, ../scss/components/_slider.scss */
+/* line 388, ../scss/components/_slider.scss */
 .slider .camera_thumbs_cont div {
   width: 100%;
 }
-/* line 676, ../scss/components/_slider.scss */
+/* line 392, ../scss/components/_slider.scss */
 .slider .camera_thumbs_cont ul {
   overflow: hidden;
   padding: 3px 4px 8px;
   position: relative;
   text-align: center;
 }
-/* line 682, ../scss/components/_slider.scss */
+/* line 398, ../scss/components/_slider.scss */
 .slider .camera_thumbs_cont ul li {
   display: inline;
   padding: 0 4px;
 }
-/* line 686, ../scss/components/_slider.scss */
+/* line 402, ../scss/components/_slider.scss */
 .slider .camera_thumbs_cont ul li img {
   border: 1px solid;
   cursor: pointer;
   margin-top: 5px;
   vertical-align: bottom;
 }
-/* line 695, ../scss/components/_slider.scss */
+/* line 411, ../scss/components/_slider.scss */
 .slider .camera_commands_emboss .camera_thumbs_cont {
   -moz-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
   -webkit-box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
   box-shadow: 0px 1px 0px white, inset 0px 1px 1px rgba(0, 0, 0, 0.2);
 }
-/* line 707, ../scss/components/_slider.scss */
+/* line 423, ../scss/components/_slider.scss */
 .slider .camera_clear {
   display: block;
   clear: both;
@@ -545,12 +545,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin: -1px 0 25px;
   position: relative;
 }
-/* line 715, ../scss/components/_slider.scss */
+/* line 431, ../scss/components/_slider.scss */
 .slider .showIt {
   display: none;
 }
 
-/* line 719, ../scss/components/_slider.scss */
+/* line 435, ../scss/components/_slider.scss */
 .camera_caption {
   position: relative;
   top: 0;
@@ -560,12 +560,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: #FFF;
 }
 
-/* line 727, ../scss/components/_slider.scss */
+/* line 443, ../scss/components/_slider.scss */
 .camera_caption div {
   height: 100%;
 }
 
-/* line 730, ../scss/components/_slider.scss */
+/* line 446, ../scss/components/_slider.scss */
 .camera_pag_ul {
   text-align: center;
   position: absolute;
@@ -574,7 +574,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   right: 0;
 }
 
-/* line 737, ../scss/components/_slider.scss */
+/* line 453, ../scss/components/_slider.scss */
 .camera_pag_ul li {
   display: inline-block;
   width: 15px;
@@ -589,23 +589,23 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 5px;
 }
 
-/* line 750, ../scss/components/_slider.scss */
+/* line 466, ../scss/components/_slider.scss */
 .camera_pag_ul li.cameracurrent,
 .camera_pag_ul li:hover {
   background: #fff;
 }
 
-/* line 754, ../scss/components/_slider.scss */
+/* line 470, ../scss/components/_slider.scss */
 .camera_pag_ul li + li {
   margin-left: 9px;
 }
 
-/* line 757, ../scss/components/_slider.scss */
+/* line 473, ../scss/components/_slider.scss */
 .camera_pag_ul li > span {
   display: none;
 }
 
-/* line 764, ../scss/components/_slider.scss */
+/* line 480, ../scss/components/_slider.scss */
 .camera_next, .camera_prev {
   position: absolute;
   top: 50%;
@@ -623,81 +623,81 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-radius: 50%;
 }
 
-/* line 781, ../scss/components/_slider.scss */
+/* line 497, ../scss/components/_slider.scss */
 .camera_next:hover, .camera_prev:hover {
   background: #3a494c;
   color: #fff;
 }
 
-/* line 786, ../scss/components/_slider.scss */
+/* line 502, ../scss/components/_slider.scss */
 .camera_next {
   right: 30px;
 }
 
-/* line 790, ../scss/components/_slider.scss */
+/* line 506, ../scss/components/_slider.scss */
 .camera_next:before {
   content: '\f105';
 }
 
-/* line 794, ../scss/components/_slider.scss */
+/* line 510, ../scss/components/_slider.scss */
 .camera_prev {
   left: 30px;
 }
 
-/* line 798, ../scss/components/_slider.scss */
+/* line 514, ../scss/components/_slider.scss */
 .camera_prev:before {
   content: '\f104';
 }
 
 @media (max-width: 1199px) {
-  /* line 802, ../scss/components/_slider.scss */
+  /* line 518, ../scss/components/_slider.scss */
   .camera_pag_ul {
     display: none;
   }
 
-  /* line 805, ../scss/components/_slider.scss */
+  /* line 521, ../scss/components/_slider.scss */
   em {
     font-size: 44px;
     text-transform: none;
     line-height: 44px;
   }
 
-  /* line 810, ../scss/components/_slider.scss */
+  /* line 526, ../scss/components/_slider.scss */
   h2 + .p__offs1 {
     margin-top: 0;
   }
 
-  /* line 813, ../scss/components/_slider.scss */
+  /* line 529, ../scss/components/_slider.scss */
   .p__offs1 + .btn {
     margin-top: 5px;
   }
 
-  /* line 816, ../scss/components/_slider.scss */
+  /* line 532, ../scss/components/_slider.scss */
   .btn {
     line-height: 30px;
     font-size: 15px;
   }
 
-  /* line 820, ../scss/components/_slider.scss */
+  /* line 536, ../scss/components/_slider.scss */
   .camera_caption {
     padding-top: 50px;
   }
 }
 @media (max-width: 767px) {
-  /* line 826, ../scss/components/_slider.scss */
+  /* line 542, ../scss/components/_slider.scss */
   .brand {
     display: block;
     font-size: 40px;
   }
 
-  /* line 831, ../scss/components/_slider.scss */
+  /* line 547, ../scss/components/_slider.scss */
   .fa {
     display: block;
     font-size: 45px;
     line-height: 51px;
   }
 
-  /* line 836, ../scss/components/_slider.scss */
+  /* line 552, ../scss/components/_slider.scss */
   .fa + h1 {
     margin-left: 0;
   }
@@ -721,6 +721,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
 /* line 15, ../scss/components/_button.scss */
 .button:hover {
@@ -742,16 +750,75 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
-/* line 12, ../scss/components/_social-buttons.scss */
+/* line 14, ../scss/components/_social-buttons.scss */
 .social-buttons li:first-child {
   background-color: #036b7e;
 }
 /* line 18, ../scss/components/_social-buttons.scss */
+.social-buttons li:hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+}
+/* line 24, ../scss/components/_social-buttons.scss */
 .social-buttons li a .fa {
   font-size: 30px;
   line-height: 50px;
   color: #fff;
+}
+
+/* line 1, ../scss/components/_input.scss */
+input {
+  display: block;
+  height: 40px;
+  border: none;
+  line-height: 40px;
+  background-color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 3, ../scss/mixins/_placeholder.scss */
+input::-webkit-input-placeholder {
+  font-size: 14px;
+  font: '"Ubuntu", sans-serif';
+  color: #666666;
+}
+/* line 9, ../scss/mixins/_placeholder.scss */
+input::-moz-placeholder {
+  font-size: 14px;
+  font: '"Ubuntu", sans-serif';
+  color: #666666;
+}
+/* line 15, ../scss/mixins/_placeholder.scss */
+input:-ms-input-placeholder {
+  font-size: 14px;
+  font: '"Ubuntu", sans-serif';
+  color: #666666;
+}
+/* line 21, ../scss/mixins/_placeholder.scss */
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 24, ../scss/mixins/_placeholder.scss */
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 27, ../scss/mixins/_placeholder.scss */
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 30, ../scss/mixins/_placeholder.scss */
+input:focus:-ms-input-placeholder {
+  color: transparent;
 }
 
 /* line 1, ../scss/widgets/_header.scss */
@@ -793,8 +860,16 @@ header nav ul li a {
   text-decoration: none;
   color: #3a494c;
   padding: 15px;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
-/* line 37, ../scss/widgets/_header.scss */
+/* line 39, ../scss/widgets/_header.scss */
 header nav ul li a:hover {
   background-color: #3a494c;
   color: #fff;
@@ -803,42 +878,152 @@ header nav ul li a:hover {
   border-radius: 3px;
 }
 
-/* line 2, ../scss/layouts/_services.scss */
+/* line 1, ../scss/widgets/_footer.scss */
+footer {
+  background-color: #2c2c2c;
+}
+/* line 5, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper {
+  padding-bottom: 0;
+}
+/* line 7, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper p {
+  padding-top: 10px;
+}
+/* line 11, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper form {
+  text-align: center;
+  margin: 50px 0;
+  width: 570px;
+}
+/* line 16, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper form input {
+  width: 555px;
+  padding-left: 15px;
+  margin-bottom: 10px;
+}
+/* line 22, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper form textarea {
+  margin-bottom: 40px;
+  padding: 15px 0 0 15px;
+  width: 555px;
+  height: 165px;
+  border: none;
+  background-color: #fff;
+  resize: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 3, ../scss/mixins/_placeholder.scss */
+footer .contact-us .wrapper form textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  font: '"Ubuntu", sans-serif';
+  color: #666666;
+}
+/* line 9, ../scss/mixins/_placeholder.scss */
+footer .contact-us .wrapper form textarea::-moz-placeholder {
+  font-size: 14px;
+  font: '"Ubuntu", sans-serif';
+  color: #666666;
+}
+/* line 15, ../scss/mixins/_placeholder.scss */
+footer .contact-us .wrapper form textarea:-ms-input-placeholder {
+  font-size: 14px;
+  font: '"Ubuntu", sans-serif';
+  color: #666666;
+}
+/* line 21, ../scss/mixins/_placeholder.scss */
+footer .contact-us .wrapper form textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+/* line 24, ../scss/mixins/_placeholder.scss */
+footer .contact-us .wrapper form textarea:focus::-moz-placeholder {
+  color: transparent;
+}
+/* line 27, ../scss/mixins/_placeholder.scss */
+footer .contact-us .wrapper form textarea:focus:-moz-placeholder {
+  color: transparent;
+}
+/* line 30, ../scss/mixins/_placeholder.scss */
+footer .contact-us .wrapper form textarea:focus:-ms-input-placeholder {
+  color: transparent;
+}
+/* line 34, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper form button {
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  font-family: 'Bree Serif', sans-serif;
+  font-size: 20px;
+  color: #3a494c;
+  line-height: 24px;
+  text-transform: uppercase;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
+}
+/* line 50, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper form button:hover {
+  color: #fff;
+  background-color: #036b7e;
+}
+/* line 56, ../scss/widgets/_footer.scss */
+footer .contact-us .wrapper p {
+  padding: 10px 0;
+}
+
+/* line 1, ../scss/layouts/_services.scss */
+.homepage .services {
+  background-color: #fff;
+}
+/* line 4, ../scss/layouts/_services.scss */
 .homepage .services .wrapper {
   padding: 45px 0 105px;
   font-size: 0;
 }
-/* line 6, ../scss/layouts/_services.scss */
+/* line 8, ../scss/layouts/_services.scss */
 .homepage .services .wrapper figure {
   display: inline-block;
   width: 365px;
   height: 315px;
   text-align: center;
 }
-/* line 13, ../scss/layouts/_services.scss */
+/* line 15, ../scss/layouts/_services.scss */
 .homepage .services .wrapper figure img {
   padding: 35px 0;
 }
-/* line 17, ../scss/layouts/_services.scss */
+/* line 19, ../scss/layouts/_services.scss */
 .homepage .services .wrapper figure .ideas {
   padding: 19px 0;
 }
-/* line 20, ../scss/layouts/_services.scss */
+/* line 22, ../scss/layouts/_services.scss */
 .homepage .services .wrapper figure figcaption {
   padding: 0 15px;
 }
-/* line 23, ../scss/layouts/_services.scss */
+/* line 25, ../scss/layouts/_services.scss */
 .homepage .services .wrapper figure figcaption h3 {
-  font-family: 'Bree Serif', serif;
+  font-family: 'Bree Serif', sans-serif;
   font-size: 24px;
   color: #3a494c;
   line-height: 30px;
   text-transform: capitalize;
 }
-/* line 30, ../scss/layouts/_services.scss */
+/* line 32, ../scss/layouts/_services.scss */
 .homepage .services .wrapper figure figcaption p {
   padding-top: 25px;
-  font-family: 'Ubuntu', serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 14px;
   color: #666;
   line-height: 24px;
@@ -892,8 +1077,16 @@ header nav ul li a:hover {
   color: #fff;
   text-decoration: none;
   padding: 10px;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
-/* line 48, ../scss/layouts/_portfolio.scss */
+/* line 50, ../scss/layouts/_portfolio.scss */
 .homepage .portfolio .wrapper ul li a:hover {
   background-color: #fff;
   color: #3a494c;
@@ -901,16 +1094,16 @@ header nav ul li a:hover {
   -webkit-border-radius: 3px;
   border-radius: 3px;
 }
-/* line 57, ../scss/layouts/_portfolio.scss */
+/* line 59, ../scss/layouts/_portfolio.scss */
 .homepage .portfolio .wrapper .portfolio-wrapper {
   font-size: 0;
   padding-bottom: 10px;
 }
-/* line 61, ../scss/layouts/_portfolio.scss */
+/* line 63, ../scss/layouts/_portfolio.scss */
 .homepage .portfolio .wrapper .portfolio-wrapper figure {
   padding-bottom: 40px;
 }
-/* line 66, ../scss/layouts/_portfolio.scss */
+/* line 68, ../scss/layouts/_portfolio.scss */
 .homepage .portfolio .wrapper .button-center {
   font-size: 0;
   text-align: center;
@@ -974,19 +1167,27 @@ header nav ul li a:hover {
 /* line 52, ../scss/layouts/_features.scss */
 .homepage .features .wrapper .features-wrapper figure figcaption p a {
   color: #036b7e;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 400ms;
+  -o-transition-duration: 400ms;
+  -webkit-transition-duration: 400ms;
+  transition-duration: 400ms;
 }
-/* line 55, ../scss/layouts/_features.scss */
+/* line 57, ../scss/layouts/_features.scss */
 .homepage .features .wrapper .features-wrapper figure figcaption p a:hover {
   text-decoration: none;
 }
-/* line 68, ../scss/layouts/_features.scss */
+/* line 70, ../scss/layouts/_features.scss */
 .homepage .features .wrapper .features-nav ul li {
   font-family: 'Ubuntu', serif;
   font-size: 14px;
   color: #666;
   line-height: 24px;
 }
-/* line 74, ../scss/layouts/_features.scss */
+/* line 76, ../scss/layouts/_features.scss */
 .homepage .features .wrapper .features-nav ul li .triangle {
   display: inline-block;
   width: 5px;
@@ -1000,7 +1201,7 @@ header nav ul li a:hover {
   border-bottom: 5px solid transparent;
   border-left: 5px solid #573e41;
 }
-/* line 86, ../scss/layouts/_features.scss */
+/* line 88, ../scss/layouts/_features.scss */
 .homepage .features .wrapper .features-nav ul li span {
   color: #036b7e;
 }
@@ -1203,46 +1404,163 @@ header nav ul li a:hover {
   color: #666;
   text-align: center;
 }
-/* line 3, ../scss/layouts/_faq.scss */
+/* line 1, ../scss/layouts/_faq.scss */
+.homepage .faq {
+  background-color: #fff;
+}
+/* line 5, ../scss/layouts/_faq.scss */
 .homepage .faq .wrapper h2 {
   color: #3a494c;
 }
-/* line 7, ../scss/layouts/_faq.scss */
+/* line 9, ../scss/layouts/_faq.scss */
 .homepage .faq .wrapper p {
   padding-top: 10px;
   color: #666;
 }
-/* line 13, ../scss/layouts/_faq.scss */
+/* line 15, ../scss/layouts/_faq.scss */
 .homepage .faq .faq-wrapper {
-  padding-top: 50px;
+  padding-top: 10px;
 }
-/* line 17, ../scss/layouts/_faq.scss */
-.homepage .faq .faq-wrapper .first p {
+/* line 23, ../scss/layouts/_faq.scss */
+.homepage .faq .faq-wrapper .faq-list li:first-child p {
   display: block;
 }
-/* line 24, ../scss/layouts/_faq.scss */
-.homepage .faq .faq-wrapper figure a .fa {
-  color: #fff;
+/* line 28, ../scss/layouts/_faq.scss */
+.homepage .faq .faq-wrapper .faq-list li p {
+  padding-top: 0;
+  display: none;
+  text-align: left;
 }
-/* line 27, ../scss/layouts/_faq.scss */
-.homepage .faq .faq-wrapper figure a .fa-plus-circle {
-  color: #666;
-  background-color: #fff;
+/* line 33, ../scss/layouts/_faq.scss */
+.homepage .faq .faq-wrapper .faq-list li .title {
+  padding-top: 40px;
 }
-/* line 32, ../scss/layouts/_faq.scss */
-.homepage .faq .faq-wrapper figure a .fa-minus-circle {
-  color: #036b7e;
-  background-color: #fff;
-}
-/* line 39, ../scss/layouts/_faq.scss */
-.homepage .faq .faq-wrapper figure figcaption h3 {
+/* line 35, ../scss/layouts/_faq.scss */
+.homepage .faq .faq-wrapper .faq-list li .title h3 {
+  padding-bottom: 10px;
+  display: block;
+  float: left;
+  width: 300px;
   font-family: 'Bree Serif', serif;
   font-size: 24px;
   line-height: 30px;
   color: #3a494c;
 }
 /* line 45, ../scss/layouts/_faq.scss */
-.homepage .faq .faq-wrapper figure figcaption p {
-  display: none;
+.homepage .faq .faq-wrapper .faq-list li .title a {
+  padding: 5px 0;
+  display: block;
+  float: right;
+  width: 44px;
+  height: 44px;
+}
+/* line 52, ../scss/layouts/_faq.scss */
+.homepage .faq .faq-wrapper .faq-list li .title a .fa {
+  color: #fff;
+}
+/* line 55, ../scss/layouts/_faq.scss */
+.homepage .faq .faq-wrapper .faq-list li .title a .fa-plus-circle {
+  color: #666;
+  background-color: #fff;
+}
+/* line 60, ../scss/layouts/_faq.scss */
+.homepage .faq .faq-wrapper .faq-list li .title a .fa-minus-circle {
+  color: #036b7e;
+  background-color: #fff;
+}
+/* line 1, ../scss/layouts/_blog.scss */
+.homepage .blog {
+  background-image: url(../../images/blog/blog-bg.png);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+}
+/* line 14, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper p {
+  padding-top: 10px;
+}
+/* line 18, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper .blog-wrapper {
+  padding-top: 50px;
+}
+/* line 22, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper .blog-wrapper .first h3 {
+  color: #036b7e;
+}
+/* line 27, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper .blog-wrapper figure {
+  position: relative;
+  padding: 15px;
+  background-color: #fff;
+}
+/* line 35, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper .blog-wrapper figure figcaption {
+  padding: 20px 0;
+}
+/* line 38, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper .blog-wrapper figure figcaption h3 {
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  color: #3a494c;
+  line-height: 30px;
+}
+/* line 44, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper .blog-wrapper figure figcaption p {
   text-align: left;
+  color: #666;
+}
+/* line 49, ../scss/layouts/_blog.scss */
+.homepage .blog .wrapper .blog-wrapper figure figcaption time {
+  margin: 30px 15px;
+  text-align: center;
+  top: 0;
+  position: absolute;
+  display: block;
+  width: 310px;
+  height: 30px;
+  background-color: #fff;
+  font-family: 'Bree Serif', serif;
+  font-size: 24px;
+  color: #3a494c;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+/* line 1, ../scss/layouts/_partners.scss */
+.homepage .partners {
+  background-color: #fff;
+}
+/* line 4, ../scss/layouts/_partners.scss */
+.homepage .partners .wrapper h2 {
+  color: #3a494c;
+}
+/* line 7, ../scss/layouts/_partners.scss */
+.homepage .partners .wrapper p {
+  padding-top: 10px;
+  color: #3a494c;
+}
+/* line 12, ../scss/layouts/_partners.scss */
+.homepage .partners .wrapper .partners-list {
+  height: 80px;
+  padding-top: 50px;
+  font-size: 0;
+}
+/* line 18, ../scss/layouts/_partners.scss */
+.homepage .partners .wrapper .partners-list li {
+  line-height: 80px;
+  display: inline-block;
+}
+/* line 23, ../scss/layouts/_partners.scss */
+.homepage .partners .wrapper .partners-list li:first-child img {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+}
+/* line 28, ../scss/layouts/_partners.scss */
+.homepage .partners .wrapper .partners-list li img {
+  vertical-align: middle;
+  padding: 0 40px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
 }

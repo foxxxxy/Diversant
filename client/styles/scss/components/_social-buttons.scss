@@ -8,9 +8,15 @@
     width: 50px;
     background-color: #a5d2da;
     @include border-radius(50%);
+    @include transition-property(all);
+    @include transition-duration(400ms);
 
-    &:first-child{
+    &:first-child {
       background-color: #036b7e;
+    }
+
+    &:hover {
+      @include opacity(0.7);
     }
 
     a {
@@ -20,6 +26,7 @@
         line-height: 50px;
         color: #fff;
       }
+
     }
   }
 }

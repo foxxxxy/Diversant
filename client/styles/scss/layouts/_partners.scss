@@ -1,0 +1,36 @@
+.partners {
+  background-color: #fff;
+  .wrapper {
+    h2 {
+      color: #3a494c;
+    }
+    p {
+      padding-top: 10px;
+      color: #3a494c;
+    }
+
+    .partners-list {
+      height: 80px;
+      padding-top: 50px;
+
+      font-size: 0;
+
+      li {
+        line-height: 80px;
+        display: inline-block;
+
+        &:first-child {
+          img {
+            @include opacity(1);
+          }
+        }
+
+        img {
+          vertical-align: middle;
+          padding: 0 40px;
+          @include opacity(0.7);
+        }
+      }
+    }
+  }
+}

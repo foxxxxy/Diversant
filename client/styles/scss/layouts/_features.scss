@@ -51,6 +51,8 @@
 
             a {
               color: #036b7e;
+              @include transition-property(all);
+              @include transition-duration(400ms);
 
               &:hover {
                 text-decoration: none;
