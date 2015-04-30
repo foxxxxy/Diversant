@@ -33,6 +33,12 @@
       }
     }
   }
+  @media (max-width: 767px) {
+    ul{
+      display: inline;
+      text-align: center;
+    }
+  }
     @media (max-width: 479px) {
     ul{
       display: inline-table;

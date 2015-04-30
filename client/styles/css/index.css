@@ -2015,15 +2015,22 @@ footer .map .image span {
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
   opacity: 0.7;
 }
-@media (max-width: 479px) {
+@media (max-width: 767px) {
   /* line 37, ../scss/layouts/_partners.scss */
+  .homepage .partners ul {
+    display: inline;
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  /* line 43, ../scss/layouts/_partners.scss */
   .homepage .partners ul {
     display: inline-table;
     text-align: center;
   }
 }
 @media (max-width: 320px) {
-  /* line 44, ../scss/layouts/_partners.scss */
+  /* line 50, ../scss/layouts/_partners.scss */
   .homepage .partners ul {
     display: inline-table;
     text-align: center;
