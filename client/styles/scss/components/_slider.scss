@@ -258,7 +258,7 @@
     z-index: 4;
   }
 
-  .camera_wrap .camera_pag .camera_pag_ul {
+  .camera_wrap .camera_pag {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -385,8 +385,8 @@
     @include border-bottom-right-radius(4px);
     @include border-bottom-left-radius(4px);
 
-    div{
-//      float: left;
+    div {
+      //      float: left;
       width: 100%;
     }
     ul {
@@ -403,21 +403,18 @@
           border: 1px solid;
           cursor: pointer;
           margin-top: 5px;
-          vertical-align:bottom;
+          vertical-align: bottom;
         }
       }
     }
   }
   .camera_commands_emboss .camera_thumbs_cont {
-    -moz-box-shadow:
-    0px 1px 0px rgba(255,255,255,1),
-    inset 0px 1px 1px rgba(0,0,0,0.2);
-    -webkit-box-shadow:
-    0px 1px 0px rgba(255,255,255,1),
-    inset 0px 1px 1px rgba(0,0,0,0.2);
-    box-shadow:
-    0px 1px 0px rgba(255,255,255,1),
-    inset 0px 1px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1),
+    inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 0px rgba(255, 255, 255, 1),
+    inset 0px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 1),
+    inset 0px 1px 1px rgba(0, 0, 0, 0.2);
   }
 
   .camera_clear {
@@ -432,127 +429,141 @@
     display: none;
   }
 }
-  .camera_caption {
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    color: #FFF;
-  }
-  .camera_caption div {
-    height: 100%;
-  }
+
+.camera_caption {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  color: #FFF;
+}
+
+.camera_caption div {
+  height: 100%;
+}
+
+.camera_pag_ul {
+  text-align: center;
+  position: absolute;
+  bottom: 38px;
+  left: 0;
+  right: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.camera_pag_ul li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 3px solid #FFF;
+  transition: all 0.3s ease 0s;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.camera_pag_ul li.cameracurrent,
+.camera_pag_ul li:hover {
+  background: #fff;
+}
+
+.camera_pag_ul li + li {
+  margin-left: 9px;
+}
+
+.camera_pag_ul li > span {
+  display: none;
+}
+
+.camera_nav {
+
+}
+
+.camera_next, .camera_prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 40px;
+  height: 40px;
+  font: 400 26px 'FontAwesome';
+  line-height: 40px;
+  text-align: center;
+  background: none;
+  color: #3a494c;
+  cursor: pointer;
+  transition: .3s all ease;
+  z-index: 10;
+  border-radius: 50%;
+}
+
+.camera_next:hover, .camera_prev:hover {
+  background: #3a494c;
+  color: #fff;
+}
+
+.camera_next {
+  right: 30px;
+}
+
+.camera_next:before {
+  content: '\f105';
+}
+
+.camera_prev {
+  left: 30px;
+}
+
+.camera_prev:before {
+  content: '\f104';
+}
+
+@media (max-width: 1199px) {
   .camera_pag_ul {
-    text-align: center;
-    position: absolute;
-    bottom: 38px;
-    left: 0;
-    right: 0;
-  }
-  .camera_pag_ul li {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    line-height: 20px;
-    text-align: center;
-    cursor: pointer;
-    border-radius: 50%;
-    border: 3px solid #FFF;
-    transition: all 0.3s ease 0s;
-    margin-bottom: 0;
-    margin-top: 5px;
-  }
-  .camera_pag_ul li.cameracurrent,
-  .camera_pag_ul li:hover {
-    background: #fff;
-  }
-  .camera_pag_ul li + li {
-    margin-left: 9px;
-  }
-  .camera_pag_ul li > span {
     display: none;
   }
-  .camera_nav {
-
+  em {
+    font-size: 44px;
+    text-transform: none;
+    line-height: 44px;
+  }
+  h2 + .p__offs1 {
+    margin-top: 0;
+  }
+  .p__offs1 + .btn {
+    margin-top: 5px;
+  }
+  .btn {
+    line-height: 30px;
+    font-size: 15px;
+  }
+  .camera_caption {
+    padding-top: 50px;
   }
 
-  .camera_next, .camera_prev {
-    position: absolute;
-    top: 50%;
-    margin-top: -20px;
-    width: 40px;
-    height: 40px;
-    font: 400 26px 'FontAwesome';
-    line-height: 40px;
-    text-align: center;
-    background: none;
-    color: #3a494c;
-    cursor: pointer;
-    transition: .3s all ease;
-    z-index: 10;
-    border-radius: 50%;
-  }
-
-  .camera_next:hover, .camera_prev:hover {
-    background: #3a494c;
-    color: #fff;
-  }
-
-  .camera_next {
-    right: 30px;
-  }
-
-  .camera_next:before {
-    content: '\f105';
-  }
-
-  .camera_prev {
-    left: 30px;
-  }
-
-  .camera_prev:before {
-    content: '\f104';
-  }
-  @media (max-width: 1199px) {
-    .camera_pag_ul {
-      display: none;
-    }
-    em {
-      font-size: 44px;
-      text-transform: none;
-      line-height: 44px;
-    }
-    h2 + .p__offs1 {
-      margin-top: 0;
-    }
-    .p__offs1 + .btn {
-      margin-top: 5px;
-    }
-    .btn {
-      line-height: 30px;
-      font-size: 15px;
-    }
-    .camera_caption {
-      padding-top: 50px;
-    }
-
-  }
-  @media (max-width: 767px) {
-    .brand {
-      display: block;
-      font-size: 40px;
-    }
-
-    .fa {
-      display: block;
-      font-size: 45px;
-      line-height: 51px
-    }
-    .fa + h1 {
-      margin-left: 0;
-    }
 }
+
+@media (max-width: 767px) {
+  .brand {
+    display: block;
+    font-size: 40px;
+  }
+
+  .fa {
+    display: block;
+    font-size: 45px;
+    line-height: 51px
+  }
+  .fa + h1 {
+    margin-left: 0;
+  }
+}
+
 /**************************
 *
 *	COLORS & SKINS

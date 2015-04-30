@@ -20,40 +20,22 @@
     .properties-wrapper {
       padding-top: 50px;
 
+
       figure {
         text-align: center;
-        position: relative;
 
-        img {
-          padding-bottom: 25px;
-          @include border-radius(50%);
+        .diagram{
+          display: inline-block;
         }
 
         figcaption {
+          padding-top: 25px;
+
           h3 {
             font-family: 'Bree Serif', serif;
             font-size: 24px;
             line-height: 30px;
             color: #3a494c;
-          }
-
-          span {
-            padding-left: 110px;
-            top: 0;
-            left: 0;
-            position: absolute;
-            font-family: 'Bree Serif', serif;
-            font-size: 36px;
-            color: #666;
-            line-height: 169px;
-
-            &:after {
-              content: '%';
-              font-family: 'Bree Serif', serif;
-              font-size: 36px;
-              color: #666;
-              text-align: center;
-            }
           }
         }
       }

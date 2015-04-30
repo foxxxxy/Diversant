@@ -59,18 +59,32 @@ footer {
     }
   }
   .map {
-    img {
-//      position: relative;
+    .image {
+      position: relative;
+      background-image: url('../../images/map/map-bg.png');
+      width: 100%;
+      height: 350px;
+      overflow: hidden;
+      background-position: center;
+      background-size: cover;
+      background-repeat: repeat;
+      span {
+        position: absolute;
+        top: 40%;
+        left: 59%;
+        display: inline-block;
+        width: 29px;
+        height: 29px;
+        border: 10px solid #51865b;
+        background-color: #fff;
+        @include border-radius(50%);
+      }
     }
-    //    span {
-    //      position: absolute;
-    //      left: 50%;
-    //      display: inline-block;
-    //      width: 38px;
-    //      height: 38px;
-    //      border: 10px solid #51865b;
-    //      background-color: #fff;
-    //      @include border-radius(50%);
-    //    }
+  }
+  @media (max-width: 320px) {
+    ul {
+      display: inline-table;
+      text-align: center;
+    }
   }
 }

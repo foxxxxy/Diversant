@@ -36,7 +36,7 @@ header {
           @include transition-property(all);
           @include transition-duration(400ms);
 
-          &:hover{
+          &:hover {
             background-color: #3a494c;
             color: #fff;
             @include border-radius(3px);
@@ -45,4 +45,52 @@ header {
       }
     }
   }
+  @media (max-width: 979px) {
+    nav {
+      & > a {
+        float: left;
+        font-size: 36px;
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    nav {
+      & > a {
+        float: left;
+        font-size: 36px;
+      }
+    }
+  }
+
+  @media (max-width: 479px) {
+    nav {
+      & > a {
+        float: left;
+        font-size: 31px;
+        line-height: 50px;
+      }
+      ul{
+        margin: 0;
+        li{
+        }
+      }
+    }
+  }
+
+  @media (max-width: 320px) {
+    nav {
+      & > a {
+        float: left;
+        font-size: 31px;
+        line-height: 50px;
+      }
+      ul{
+        margin: 0;
+        li{
+        }
+      }
+    }
+  }
 }
+

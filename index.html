@@ -5,15 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Diversant</title>
+    <!--General css-->
     <link rel="stylesheet" href="client/styles/css/index.css">
-    <!--<link rel="stylesheet" href="client/styles/css/main.css">-->
+    <!--font-awesome-->
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <!--Grid-->
     <link rel="stylesheet" href="client/styles/css/grid.css"/>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script type='text/javascript' src='client/scripts/jquery.min.js'></script>
+    <!--owl carousel css-->
+    <link href="client/styles/css/owl.theme.css" rel="stylesheet">
+    <link href="client/styles/css/owl.carousel.css" rel="stylesheet">
+    <!--fancyBox-->
+    <link rel="stylesheet" type="text/css" href="client/styles/css/jquery.fancybox.css?v=2.1.5" media="screen"/>
+    <!--JQuery-->
+    <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>-->
+    <!--<script type='text/javascript' src='client/scripts/jquery.min.js'></script>-->
     <script type='text/javascript' src='client/scripts/jquery.mobile.customized.min.js'></script>
     <script type='text/javascript' src='client/scripts/jquery.easing.1.3.js'></script>
+    <!--Camera slider-->
     <script type='text/javascript' src='client/scripts/camera.min.js'></script>
+    <!--Initialization camera slider-->
     <script>
         jQuery(function () {
             jQuery('.camera_wrap').camera({
@@ -33,6 +43,48 @@
             });
         });
     </script>
+    <!--owl carousel-->
+    <script src="client/scripts/jquery-1.9.1.min.js"></script>
+    <script src="client/scripts/owl.carousel.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#owl-demo").owlCarousel({
+                autoPlay: 3000,
+                items: 1,
+                margin: 20,
+                smartSpeed: 450,
+                center: true,
+                loop: true,
+                dots: true,
+                dotsEach: 1,
+                nav: false,
+                responsive: {
+                    0: {items: 1},
+                    480: {items: 1},
+                    768: {items: 1},
+                    980: {items: 2},
+                    1600: {items: 3}
+                }
+            });
+        });
+    </script>
+    <!--Circle Progress Bar-->
+    <script src="client/scripts/jquery.circle-diagram.js"></script>
+    <script>
+        $(function () {
+            $('#diagram-id-1').circleDiagram();
+            $('#diagram-id-2').circleDiagram();
+            $('#diagram-id-3').circleDiagram();
+            $('#diagram-id-4').circleDiagram();
+        });
+    </script>
+    <!--fancyBox-->
+    <script type="text/javascript" src="client/scripts/jquery.fancybox.js?v=2.1.5"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.fancybox').fancybox();
+        });
+    </script>
 </head>
 <body class="homepage">
 <header>
@@ -43,8 +95,8 @@
                 <li><a href="/">home</a></li>
                 <li><a href="#services">services</a></li>
                 <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">contact</a></li>
+                <li><a href="#blog">blog</a></li>
+                <li><a href="#contact">contact</a></li>
             </ul>
         </nav>
     </div>
@@ -52,7 +104,6 @@
 <main>
     <section class="slider">
         <!--<img src="client/images/slider/slide1.jpg" alt="t"/>-->
-
         <div class="camera_container">
             <div id="camera" class="camera_wrap">
                 <div data-src="client/images/slider/slide1.jpg">
@@ -177,46 +228,40 @@
                 <div class="portfolio-wrapper">
                     <div class="row">
                         <div class="grid_4">
-                            <figure>
+                            <a class="fancybox" href="client/images/portfolio/thumbnails1.png"
+                               data-fancybox-group="gallery">
                                 <img src="client/images/portfolio/thumbnails1.png" alt="portfolio"/>
-                                <figcaption>
-                                </figcaption>
-                            </figure>
+                            </a>
                         </div>
                         <div class="grid_4">
-                            <figure>
+                            <a class="fancybox" href="client/images/portfolio/thumbnails2.png"
+                               data-fancybox-group="gallery">
                                 <img src="client/images/portfolio/thumbnails2.png" alt="portfolio"/>
-                                <figcaption>
-                                </figcaption>
-                            </figure>
+                            </a>
                         </div>
                         <div class="grid_4">
-                            <figure>
+                            <a class="fancybox" href="client/images/portfolio/thumbnails3.png"
+                               data-fancybox-group="gallery">
                                 <img src="client/images/portfolio/thumbnails3.png" alt="portfolio"/>
-                                <figcaption>
-                                </figcaption>
-                            </figure>
+                            </a>
                         </div>
                         <div class="grid_4">
-                            <figure>
+                            <a class="fancybox" href="client/images/portfolio/thumbnails4.png"
+                               data-fancybox-group="gallery">
                                 <img src="client/images/portfolio/thumbnails4.png" alt="portfolio"/>
-                                <figcaption>
-                                </figcaption>
-                            </figure>
+                            </a>
                         </div>
                         <div class="grid_4">
-                            <figure>
+                            <a class="fancybox" href="client/images/portfolio/thumbnails5.png"
+                               data-fancybox-group="gallery">
                                 <img src="client/images/portfolio/thumbnails5.png" alt="portfolio"/>
-                                <figcaption>
-                                </figcaption>
-                            </figure>
+                            </a>
                         </div>
                         <div class="grid_4">
-                            <figure>
+                            <a class="fancybox" href="client/images/portfolio/thumbnails6.png"
+                               data-fancybox-group="gallery">
                                 <img src="client/images/portfolio/thumbnails6.png" alt="portfolio"/>
-                                <figcaption>
-                                </figcaption>
-                            </figure>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -584,6 +629,79 @@
 
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Set et quam est. Mauris
                     faucibus <br/> tellus ac auctor posuere</p>
+
+                <div class="testimonials-wrapper">
+                    <div class="row">
+                        <div class="preffix_2 grid_8">
+                            <div id="owl-demo" class="owl-carousel clearfix">
+                                <div class="item">
+                                    <figure>
+                                        <img src="client/images/testimonials/item1.png" alt="Owl Image">
+                                        <figcaption>
+
+                                            <h3> Rob Singer <span>, visitors </span></h3>
+                                            <i class="fa fa-quote-left"></i>
+
+                                            <p>
+                                                Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo
+                                                essent
+                                                henderit ut, mel cu oblique eripuit maestatis, sit no persius aliquam.
+                                                Pro ad eripuit dolorum percipit, est percipit ocurrert ex. Cu ignota
+                                                audiam
+                                                facilis eum, vim te vide contentiones, nostrud commune gubergren per no.
+
+                                            </p>
+                                            <i class="fa fa-quote-right"></i>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+
+                                <div class="item">
+                                    <figure>
+                                        <img src="client/images/testimonials/item2.png" alt="Owl Image">
+                                        <figcaption>
+
+                                            <h3> Adam Law <span>, client </span></h3>
+                                            <i class="fa fa-quote-left"></i>
+
+                                            <p>
+                                                Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo
+                                                essent
+                                                henderit ut, mel cu oblique eripuit maestatis, sit no persius aliquam.
+                                                Pro ad eripuit dolorum percipit, est percipit ocurrert ex. Cu ignota
+                                                audiam
+                                                facilis eum, vim te vide contentiones, nostrud commune gubergren per no.
+
+                                            </p>
+                                            <i class="fa fa-quote-right"></i>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                                <div class="item">
+                                    <figure>
+                                        <img src="client/images/testimonials/item3.png" alt="Owl Image">
+                                        <figcaption>
+
+                                            <h3> Ruby Teylor <span>, visitors </span></h3>
+                                            <i class="fa fa-quote-left"></i>
+
+                                            <p>
+                                                Vis quaeque inermis atomorum cu. Aperiam suscipiantur at pro. Nec paulo
+                                                essent
+                                                henderit ut, mel cu oblique eripuit maestatis, sit no persius aliquam.
+                                                Pro ad eripuit dolorum percipit, est percipit ocurrert ex. Cu ignota
+                                                audiam
+                                                facilis eum, vim te vide contentiones, nostrud commune gubergren per no.
+
+                                            </p>
+                                            <i class="fa fa-quote-right"></i>
+                                        </figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -637,38 +755,89 @@
                 <div class="properties-wrapper">
                     <div class="row">
                         <div class="grid_3">
+
                             <figure>
-                                <img src="client/images/properties/properties1.png" alt="properties"/>
+                                <div
+                                        id="diagram-id-1"
+                                        class="diagram"
+                                        data-circle-diagram='{
+			"percent": "92%",
+                "size": "139",
+                "borderWidth": "15",
+                "bgFill": "#d7ebef",
+                "frFill": "#a5d2da",
+                "font": "Bree Serif",
+                "textSize": "36",
+                "textColor": "#3a494c"
+			}'>
+                                </div>
                                 <figcaption>
                                     <h3>Liber option civibu</h3>
-                                    <span>92</span>
                                 </figcaption>
                             </figure>
+                            <!--<script src="client/scripts/jquery-1.11.1.min.js"></script>-->
+
                         </div>
                         <div class="grid_3">
                             <figure>
-                                <img src="client/images/properties/properties2.png" alt="properties"/>
+                                <div
+                                        id="diagram-id-2"
+                                        class="diagram"
+                                        data-circle-diagram='{
+			"percent": "86%",
+                "size": "139",
+                "borderWidth": "15",
+                "bgFill": "#d4edd9",
+                "frFill": "#9bd6a7",
+                "font": "Bree Serif",
+                "textSize": "36",
+                "textColor": "#3a494c"
+			}'>
+                                </div>
                                 <figcaption>
                                     <h3>Vis quaeque inermis</h3>
-                                    <span>86</span>
                                 </figcaption>
                             </figure>
                         </div>
                         <div class="grid_3">
                             <figure>
-                                <img src="client/images/properties/properties3.png" alt="properties"/>
+                                <div
+                                        id="diagram-id-3"
+                                        class="diagram"
+                                        data-circle-diagram='{
+                "percent": "78%",
+                "size": "139",
+                "borderWidth": "15",
+                "bgFill": "#fde4bf",
+                "frFill": "#fbbe67",
+                "font": "Bree Serif",
+                "textSize": "36",
+                "textColor": "#3a494c"
+			}'>
+                                </div>
                                 <figcaption>
                                     <h3>Lorem ipsum dolor</h3>
-                                    <span>78</span>
                                 </figcaption>
                             </figure>
                         </div>
                         <div class="grid_3">
                             <figure>
-                                <img src="client/images/properties/properties4.png" alt="properties"/>
+                                <div
+                                        id="diagram-id-4"
+                                        class="diagram"
+                                        data-circle-diagram='{
+			"percent": "75%",
+                "size": "139",
+                "borderWidth": "15",
+                "bgFill": "#72acb7",
+                "frFill": "#036b7e",
+                "font": "Bree Serif",
+                "textSize": "36",
+                "textColor": "#3a494c"
+			}'>
+                                </div>
                                 <figcaption>
                                     <h3>Diam utinam ridens</h3>
-                                    <span>75</span>
                                 </figcaption>
                             </figure>
                         </div>
@@ -747,7 +916,7 @@
             </div>
         </div>
     </section>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="wrapper">
             <div class="container">
                 <h2>latest from the blog</h2>
@@ -819,10 +988,11 @@
                 </ul>
             </div>
         </div>
+        <a href="#" class="scrollToTop"></a>
     </section>
 </main>
 <footer>
-    <section class="contact-us">
+    <section class="contact-us" id="contact">
         <div class="wrapper">
             <div class="container">
                 <h2>contact us</h2>
@@ -845,8 +1015,7 @@
         </div>
     </section>
     <section class="map">
-        <div class="container">
-            <img src="client/images/map/map-bg.png" alt="map"/>
+        <div class="image">
             <span></span>
         </div>
     </section>
